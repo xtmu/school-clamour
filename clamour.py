@@ -23,7 +23,7 @@ def clamour(text):
 
     print("发声")
     # sound_path=r"res\wav\school_bell.wav"
-    sound_path=r"res\wav\Japanese School Bell (Westminster Chime).wav"
+    sound_path=r"res\wav\Westminster_Chime.wav"
     count=1
     while count:
         playsound(sound_path)
