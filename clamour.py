@@ -46,9 +46,11 @@ def clamour(text, start_flag=True):
 
         print("发声")
         # sound_path=r"res\wav\school_bell.wav"
+        sound_path = r"C:\Users\init\Music\Ringtone\wishmerrychristmas.mp3"
+        # sound_path = r"C:\Users\init\Music\Ringtone\carol_of_bell_BN.mp3"
         # sound_path = r"res\wav\XiaKeLingSheng.wav"
         # sound_path = r"res\wav\himitsukoigokoro_ins.wav"
-        sound_path = r"res\wav\kawaii.wav"
+        # sound_path = r"res\wav\kawaii.wav"
         count = 1
         while count:
             playsound(sound_path,False)
@@ -56,13 +58,13 @@ def clamour(text, start_flag=True):
         time.sleep(60)
 
         print("熄屏")
-        user_input.win_d()
+        # user_input.win_d()
         # 熄屏持续时间
-        loop=180
-        while loop:
-            screen.screen_off_lock()
-            time.sleep(1)
-            loop=loop-1
+        # loop=180
+        # while loop:
+        #     screen.screen_off_lock()
+        #     time.sleep(1)
+        #     loop=loop-1
 
 
 # timetable = (
@@ -91,9 +93,9 @@ timetable = (
     ("18:55", "19:00", "预备"),
     ("19:00", "19:40", "第一节"),
     ("19:50", "20:30", "第二节"),
-    ("20:30", "20:30", "即将关机!请完成并保存日记!"),
-    ("20:34", "20:34", "即将关机!请完成并保存日记!"),
-    ("20:39", "20:39", "即将关机!请完成并保存日记!"),
+    ("20:50", "20:50", "即将关机!请完成并保存日记!"),
+    ("20:54", "20:54", "即将关机!请完成并保存日记!"),
+    ("20:59", "20:59", "即将关机!请完成并保存日记!"),
     # ("20:45", "20:45", "保存你的工作，即将关机"),
     # ("21:00", "21:29", "洗澡"),
     # ("21:30", "22:30", "看书听书"),
